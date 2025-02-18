@@ -1,0 +1,52 @@
+{
+    "contributions": [
+        {
+            "id": "query-result-work-item-menu",
+            "type": "ms.vss-web.action",
+            "targets": [
+                "ms.vss-work-web.query-result-work-item-menu"
+            ],
+            "properties": {
+                "text": "Custom query-result-work-item-menu",
+                "uri": "dist/query-menus/query-menus.html",
+                "icon": {
+                    "light": "static/asterisk.png",
+                    "dark": "static/asterisk.png"
+                },
+                "registeredObjectId": "query-menu"
+            }
+        },
+        {
+            "id": "work-item-query-menu",
+            "type": "ms.vss-web.action",
+            "targets": [
+                "ms.vss-work-web.work-item-query-menu"
+            ],
+            "properties": {
+                "text": "Custom work-item-query-menu",
+                "uri": "dist/query-menus/query-menus.html",
+                "icon": {
+                    "light": "static/asterisk.png",
+                    "dark": "static/asterisk.png"
+                },
+                "registeredObjectId": "query-menu"
+            }
+        },
+        {
+            "id": "work-item-query-results-toolbar-menu",
+            "type": "ms.vss-web.action",
+            "targets": [
+                "ms.vss-work-web.work-item-query-results-toolbar-menu"
+            ],
+            "properties": {
+                "text": "Custom work-item-query-results-toolbar-menu",
+                "uri": "dist/query-menus/query-menus.html",
+                "icon": {
+                    "light": "static/asterisk.png",
+                    "dark": "static/asterisk.png"
+                },
+                "registeredObjectId": "query-menu"
+            }
+        }
+    ]
+}
